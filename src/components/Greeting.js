@@ -13,7 +13,7 @@ const Greeting = () => {
   return (
     <>
       <h1>
-        Message:
+        Message: Hello
         {greetings}
       </h1>
     </>

@@ -12,10 +12,9 @@ const Greeting = () => {
   const { greetings } = useSelector((state) => state);
   return (
     <>
-      <h1>
-        Message: Hello
-        {greetings}
-      </h1>
+      Message:
+      { ' '}
+      {greetings}
     </>
   );
 };

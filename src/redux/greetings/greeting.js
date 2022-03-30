@@ -8,7 +8,7 @@ export const loadMessage = (message) => ({
 });
 
 const getMessage = async () => {
-  const request = await fetch('http://127.0.0.1:2000/api/v1/random');
+  const request = await fetch('http://127.0.0.1:3000/api/v1/random');
   const result = await request.json();
   return result;
 };
